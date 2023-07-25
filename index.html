@@ -43,6 +43,7 @@
 <body class="lato">
 
     <header class="max-w-7xl m-auto my-12 ">
+        <!-- navbar section -->
         <nav class="text-black lg:bg-nav-bg lg:text-white rounded-[600px] px-12 py-3">
             <div class="navbar flex-col lg:flex-row justify-between items-center">
                 <div class="list-none gap-x-5 text-lg">
@@ -58,28 +59,29 @@
 
                 <div class="form-control  ">
                     <input type="text" placeholder="Search here "
-                     class="input input-bordered w-28 md:w-auto rounded-[50px]" />
-                        <i class="fa-solid fa-magnifying-glass absolute text-[#121212] mt-4 ml-36"></i>
+                        class="input input-bordered w-28 md:w-auto rounded-[50px]" />
+                    <i class="fa-solid fa-magnifying-glass absolute text-[#121212] mt-4 ml-36"></i>
                 </div>
 
 
             </div>
         </nav>
 
+        <!-- slider section -->
         <div class="carousel w-full my-12">
-            
+
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
                     <h2 class="text-7xl font-extrabold ">Exotic tastes at your doorstep</h2>
                     <p class="text-xl font-medium">We supply highly quality organic products</p>
                     <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
                 </div>
-              <img src="/images/banner1.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
+                <img src="./images/banner1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
 
             <div id="slide2" class="carousel-item relative w-full">
                 <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
@@ -87,12 +89,12 @@
                     <p class="text-xl font-medium">We supply highly quality organic products</p>
                     <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
                 </div>
-              <img src="/images/banner2.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
+                <img src="/images/banner2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
 
             <div id="slide3" class="carousel-item relative w-full">
                 <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
@@ -100,12 +102,12 @@
                     <p class="text-xl font-medium">We supply highly quality organic products</p>
                     <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
                 </div>
-              <img src="/images/banner3.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
+                <img src="/images/banner3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
 
             <div id="slide4" class="carousel-item relative w-full">
                 <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
@@ -113,17 +115,134 @@
                     <p class="text-xl font-medium">We supply highly quality organic products</p>
                     <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
                 </div>
-              <img src="/images/banner4.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+                <img src="/images/banner4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
             </div>
-          </div>
+        </div>
 
     </header>
 
     <main class="max-w-7xl m-auto">
+        <!-- card section -->
+        <section class="my-20">
+            <div class="flex justify-between">
+                <div>
+                    <h3 class="text-5xl font-extrabold ">Deal of the day</h3>
+                    <p class="text-xl font-medium max-w-[610px] my-6 text-[#12121299]">Contrary to popular belief, is
+                        not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making
+                        it over 2000 years old.</p>
+                </div>
+                <div>
+                    <h3>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ipsa, adipisci!</h3>
+                </div>
+            </div>
+
+            <!-- 1st card -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-x-6 mt-12">
+                <div class="card border-solid border-2 border-[ #1212121A]">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/fruit6.png" alt="apple" class="rounded-xl mb-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title mb-6">12.90$ - 18.85$</h2>
+                        <div class="bg-[#1212121A] w-[244px] h-[1px] mb-3">
+
+                        </div>
+                        <p>Apples</p>
+                        <div class="flex gap-x-2 mt-4  text-[#FBC0A8]">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="mt-4 text-lg font-bold text-[#F85559]">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="card border-solid border-2 border-[ #1212121A]">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/fruit7.png" alt="apple" class="rounded-xl mb-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title mb-6">12.90$ - 18.85$</h2>
+                        <div class="bg-[#1212121A] w-[244px] h-[1px] mb-3">
+
+                        </div>
+                        <p>Orange</p>
+                        <div class="flex gap-x-2 mt-4  text-[#FBC0A8]">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="mt-4 text-lg font-bold text-[#F85559]">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd card -->
+                <div class="card border-solid border-2 border-[ #1212121A]">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/fruit8.png" alt="apple" class="rounded-xl mb-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title mb-6">12.90$ - 18.85$</h2>
+                        <div class="bg-[#1212121A] w-[244px] h-[1px] mb-3">
+
+                        </div>
+                        <p>Red Dragon</p>
+                        <div class="flex gap-x-2 mt-4  text-[#FBC0A8]">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="mt-4 text-lg font-bold text-[#F85559]">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th card -->
+                <div class="card border-solid border-2 border-[ #1212121A]">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/fruit9.png" alt="apple" class="rounded-xl mb-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title mb-6">12.90$ - 18.85$</h2>
+                        <div class="bg-[#1212121A] w-[244px] h-[1px] mb-3">
+
+                        </div>
+                        <p>Banana</p>
+                        <div class="flex gap-x-2 mt-4  text-[#FBC0A8]">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="mt-4 text-lg font-bold text-[#F85559]">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+                <button class="bg-[#F85559] p-5 text-white rounded-lg mt-12 ">Shop All</button>
+            </div>
+
+        </section>
 
     </main>
 
