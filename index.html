@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Shop</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
     <!-- tailwind and daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -41,9 +42,9 @@
 
 <body class="lato">
 
-    <header class="max-w-7xl m-auto my-12 text-white">
-        <nav class="bg-nav-bg rounded-[600px] px-12 py-3">
-            <div class="navbar flex justify-between items-center">
+    <header class="max-w-7xl m-auto my-12 ">
+        <nav class="text-black lg:bg-nav-bg lg:text-white rounded-[600px] px-12 py-3">
+            <div class="navbar flex-col lg:flex-row justify-between items-center">
                 <div class="list-none gap-x-5 text-lg">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
@@ -65,9 +66,64 @@
             </div>
         </nav>
 
+        <div class="carousel w-full my-12">
+            
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
+                    <h2 class="text-7xl font-extrabold ">Exotic tastes at your doorstep</h2>
+                    <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
+                </div>
+              <img src="/images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
+                    <h2 class="text-7xl font-extrabold ">Exotic tastes at your doorstep</h2>
+                    <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
+                </div>
+              <img src="/images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
+                    <h2 class="text-7xl font-extrabold ">Exotic tastes at your doorstep</h2>
+                    <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
+                </div>
+              <img src="/images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="absolute mt-24 text-white text-center space-y-8 max-w-2xl ml-72">
+                    <h2 class="text-7xl font-extrabold ">Exotic tastes at your doorstep</h2>
+                    <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <button class="btn btn bg-[#F85559] text-white p-5 border-none">Shop Now</button>
+                </div>
+              <img src="/images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
     </header>
 
-    <main>
+    <main class="max-w-7xl m-auto">
 
     </main>
 
